@@ -2,7 +2,7 @@ use std::env;
 
 use dotenv;
 
-use actix_web::{web, App, HttpServer};
+use actix_web::{App, HttpServer};
 use transaction::routes::route::config;
 
 #[actix_web::main]
